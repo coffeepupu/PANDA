@@ -151,7 +151,7 @@ class Inline:
         if private:
             rows += [
                 [
-                    self.ikb(text=lang["aloneowner"], user_id=config.OWNER_ID),
+                    self.ikb(text=lang["Pandaowner"], user_id=config.OWNER_ID),
                     self.ikb(
                         text=lang["premium shop"],
                         url="https://t.me/HANTHAR_1999",
